@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Introducción
 
-You can use the [editor on GitHub](https://github.com/kissh/SIMAP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Planteamiento del problema.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+La piscicultura es la crianza de peces. Esta actividad está creciendo en Colombia. Esto lo podemos ver en la gráfica, en donde su crecimiento está superando la pesca. El objetivo del sector es cubrir la demanda de pescado a nivel nacional y generar exportaciones.En la búsqueda de hacer competitivo este sector primario de la economía. se busca diseñar un sistema para el monitoreo de piscicultura en la especie de tilapia, Que es la de mayor producción a nivel nacional, en las etapas de ovas y larvas que son las de mayor riesgo e incertidumbre por el alto índice de mortalidad, Esto es debido a la sensibilidad a cambios de algunas variables críticas presentes en el agua, tales como oxígeno disuelto, temperatura, turbidez y pH que ocasionan un índice de mortalidad mayor al 70 %.
 
 ```markdown
 Syntax highlighted code block
