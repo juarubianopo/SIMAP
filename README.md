@@ -4,8 +4,8 @@
 ### Jose Alvaro Celis Lopez
 ### Jhian Emmanuel Ramos Lopez
 ### Juan Alonso Rubiano Portela 
-Planteamiento del problema. 
-Sistema de Monitoreo de Agua para Piscicultura
+
+Sistema de Monitoreo de Agua para Piscicultura de Tilapia
 
 Planteamiento del problema. 
 
