@@ -30,4 +30,7 @@ necesarios para el sistema.
 | Costo | $73.000  | $32.000 | $57.000|
 | Puertos | 54  | 32 | ?|
 |Velocidad| 16MHz|240MHz| 1GHz|
-| Contenido de la celda  | Contenido de la celda  |
+|Memoria| 256 KB|4MB|512MB|No|
+|Bluetooth|Módulo externo|Si
+|Voltaje|5V| 5-10V|5V
+|Hibernación|Si|Si| Contenido de la celda  |
