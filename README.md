@@ -33,4 +33,22 @@ necesarios para el sistema.
 |Memoria| 256 KB|4MB|512MB|No|
 |Bluetooth|Módulo externo|Si
 |Voltaje|5V| 5-10V|5V
-|Hibernación|Si|Si| Contenido de la celda  |
+|Hibernación|Si|Si| Si  |
+
+### Sensor de pH
+|Requisitos  | SEN0161 | DFR0300| PH-4502C|
+| ------------- | ------------- |-------------|-------------|
+|Temperatura|0-60°C|0-40°C|0–80°C|
+|Costo|$154.700|$357.000|$51.200|
+|Precisión|± 0.1 pH (25 ℃)| ±5%|±5%|
+
+### Sensor de Turbidez
+|Requisitos  | SEN0189 | TSW-20M|
+| ------------- | ------------- |-------------|
+|Costo| $57.120| $49.000\
+|Temperatura|-50 90C| -30 °C 80 °C|
+|Precisión| 10%|Precisi´on: ±5%|
+
+
+
+
