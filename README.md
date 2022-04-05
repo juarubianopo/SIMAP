@@ -18,7 +18,16 @@ En base a los requerimientos de  la actividad proponemos. el siguiente  diseño 
 
 
 
-| Primer encabezado | Segundo encabezado |
-| ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
+## Análisis de  alternativas de los  componentes en el proceso de diseño  
+
+
+A continuaci´on se realizan los comparativos para cada uno de los elementos
+necesarios para el sistema.
+
+# Sistema embebido
+|Requisitos  | Arduino mega | EPS32| Raspberry Pi|
+| ------------- | ------------- |-------------|-------------|
+| Costo | $73.000  | $32.000 | $57.000|
+| Puertos | 54  | 32 | ?|
+|Velocidad| 16MHz|240MHz| 1GHz|
 | Contenido de la celda  | Contenido de la celda  |
