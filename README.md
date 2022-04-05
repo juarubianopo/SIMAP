@@ -5,7 +5,6 @@
 ### Jhian Emmanuel Ramos Lopez
 ### Juan Alonso Rubiano Portela
 # Sistema de Monitoreo de Agua para Piscicultura
-
 ##Planteamiento del problema 
 
 
