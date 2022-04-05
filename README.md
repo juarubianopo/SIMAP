@@ -43,12 +43,19 @@ necesarios para el sistema.
 |Precisión|± 0.1 pH (25 ℃)| ±5%|±5%|
 
 ### Sensor de Turbidez
+
 |Requisitos  | SEN0189 | TSW-20M|
 | ------------- | ------------- |-------------|
 |Costo| $57.120| $49.000\
 |Temperatura|-50 90C| -30 °C 80 °C|
 |Precisión| 10%|Precisi´on: ±5%|
 
+###Temperatura
+|Requisitos  | MTK-01   |SEN PT100 |SEN DS18B20|
+| ------------- | ------------- |-------------|-------------|
+|Rango|-40C y 204C|-50C 250C|-55°C hasta +125°C|
+|Costo| 14,875| |19,992|16,660|
+|Precisión|± 0,75°C Leit. o ± 2.2 ° C|±0.5°C|±0.5°C
 
 
 
