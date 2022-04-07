@@ -18,7 +18,7 @@ En base a los requerimientos de  la actividad proponemos. el siguiente  diseño 
 ### Análisis de  alternativas de los  componentes en el proceso de diseño  
 
 
-A continuaci´on se realizan los comparativos para cada uno de los elementos
+A continuación se realizan los comparativos para cada uno de los elementos
 necesarios para el sistema.
 
 ### Sistema embebido
@@ -54,6 +54,6 @@ necesarios para el sistema.
 |Costo| 14,875| |19,992|16,660|
 |Precisión|± 0,75°C Leit. o ± 2.2 ° C|±0.5°C|±0.5°C
 
-
+### Sensor de Turbidez
 
 
