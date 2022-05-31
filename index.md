@@ -38,6 +38,6 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 
 
-<iframe width="854" height="480" src="Imagenes/Temp_Kish.mp4" type="video/mp4">
+<iframe width="854" height="480" src="Imagenes/PH_Juan.mp4" type="video/mp4">
 </iframe>
 
