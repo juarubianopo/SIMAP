@@ -40,9 +40,7 @@ src="https://www.youtube.com/watch?v=ES8Pc5Cx0Mw&ab_channel=JuanRubiano">
 
 <div>
 <p style = 'text-align:center;'>
-<iframe width="600" height = "420"
 src="https://www.youtube.com/watch?v=ES8Pc5Cx0Mw&ab_channel=JuanRubiano">
-</iframe>
 </p>
 </div>
 
