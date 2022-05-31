@@ -6,9 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Modelo funcional inicial
 
-![Planteamiento](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Imagenes\Planteamiento.png)
+![Planteamiento](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/Planteamiento.png)
 
-[Link](url) and ![Image](src)
 
 
 ## Diseño de la PCB
@@ -26,8 +25,8 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 ### Sensor de temperatura
 
-![Prueba con el sensor de temperatura](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Sensores\Pruebas_Sensores\Temp_Kish.mp4)
+![Prueba con el sensor de temperatura](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/Temp_Kish.mp4)
 
 ### Sensor de PH
 
-![Prueba con el sensor de PH](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Sensores\Pruebas_Sensores\PH_Juan.mp4)
+![Prueba con el sensor de PH](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/PH_Juan.mp4)
