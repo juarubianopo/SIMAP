@@ -30,3 +30,7 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 ### Sensor de PH
 
 ![Prueba con el sensor de PH](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/PH_Juan.mp4)
+
+<iframe width="600" height = "420"
+src="https://www.youtube.com/embed/qKf2EwInKbA">
+</iframe>
