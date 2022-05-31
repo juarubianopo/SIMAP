@@ -11,7 +11,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 [Link](url) and ![Image](src)
 
 
-##Diseño de la PCB
+## Diseño de la PCB
 
 La PCB fue diseñada en KiCAD siguiendo el standar, esto se completara mas adelante.
 Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
@@ -20,7 +20,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 
 
-##Pruebas de sensores
+## Pruebas de sensores
 se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta seccion:
 
 ### Sensor de temperatura
