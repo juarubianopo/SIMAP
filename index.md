@@ -17,7 +17,7 @@ La PCB fue diseñada en KiCAD siguiendo el standar, esto se completara mas adela
 Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 
-![](https://github.com/juarubianopo/SIMAP/tree/gh-pages/Imagenes/PCB.png)
+![](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/PCB.png)
 
 
 
