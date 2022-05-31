@@ -27,9 +27,7 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 ### Sensor de temperatura
 
-<video width="640" height="352" controls>
-<source src="https://www.youtube.com/shorts/2G7OQc1Dfrg" type="video/mp4">
-</video>
+
 
 <iframe width="640" height="352" src="Imagenes/Temp_Kish.mp4" type="video/mp4">
 </iframe>
@@ -38,9 +36,8 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 ### Sensor de PH
 
-<video width="854" height="480" controls>
-<source src="Imagenes/PH_Juan.mp4" type="video/mpeg">
-</video>
 
 
+<iframe width="854" height="480" src="Imagenes/Temp_Kish.mp4" type="video/mp4">
+</iframe>
 
