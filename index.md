@@ -25,22 +25,9 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 ### Sensor de temperatura
 
-![Prueba con el sensor de temperatura](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/Temp_Kish.mp4)
-<iframe width="600" height = "420"
-src="https://www.youtube.com/shorts/2G7OQc1Dfrg">
-</iframe>
+
 
 ### Sensor de PH
 
-![Prueba con el sensor de PH](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/PH_Juan.mp4)
 
-<iframe width="600" height = "420"
-src="https://www.youtube.com/watch?v=ES8Pc5Cx0Mw&ab_channel=JuanRubiano">
-</iframe>
-
-<div>
-<p style = 'text-align:center;'
-src="https://www.youtube.com/watch?v=ES8Pc5Cx0Mw&ab_channel=JuanRubiano">
-</p>
-</div>
 
