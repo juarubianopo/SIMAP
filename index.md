@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Modelo funcional inicial
 
-![Planteamiento](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/Planteamiento.png)
+
 <img src="Imagenes/Planteamiento.png" >
 
 
@@ -18,6 +18,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 
 ![](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/PCB.png)
+<img src="Imagenes/PCB.png" >
 
 
 
