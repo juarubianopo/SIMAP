@@ -26,6 +26,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta seccion:
 
 ### Sensor de temperatura
+
 <video width="640" height="352" controls>
 <source src="Imagenes/Temp_Kish.mp4" type="video/mpeg">
 </video>
@@ -33,6 +34,10 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 
 ### Sensor de PH
+
+<video width="854" height="480" controls>
+<source src="Imagenes/PH_Juan.mp4" type="video/mpeg">
+</video>
 
 
 
