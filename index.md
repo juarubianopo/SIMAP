@@ -37,3 +37,11 @@ src="https://www.youtube.com/shorts/2G7OQc1Dfrg">
 <iframe width="600" height = "420"
 src="https://www.youtube.com/watch?v=ES8Pc5Cx0Mw&ab_channel=JuanRubiano">
 </iframe>
+
+<div>
+<p style = 'text-align:center;'>
+<iframe width="600" height = "420"
+src="https://www.youtube.com/watch?v=ES8Pc5Cx0Mw&ab_channel=JuanRubiano">
+</iframe>
+</div>
+</p>
