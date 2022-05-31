@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Modelo funcional inicial
 
 ![Planteamiento](https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/Planteamiento.png)
+<img src="Imagenes/Planteamiento.png" >
 
 
 
