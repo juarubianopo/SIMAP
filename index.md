@@ -28,8 +28,11 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 ### Sensor de temperatura
 
 <video width="640" height="352" controls>
-<source src="https://www.youtube.com/shorts/2G7OQc1Dfrg" type="video/mpeg">
+<source src="https://www.youtube.com/shorts/2G7OQc1Dfrg" type="video/mp4">
 </video>
+
+<iframe src="https://www.youtube.com/shorts/2G7OQc1Dfrg" type="video/mp4">
+</iframe>
 
 
 
