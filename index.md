@@ -26,7 +26,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta seccion:
 
 ### Sensor de temperatura
-<video width="320" height="240" controls>
+<video>
 <source src="Imagenes/Temp_Kish.mp4" type="video/mpeg">
 </video>
 
