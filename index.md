@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Modelo funcional inicial
 
-[![Diseño de la PCB](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Imagenes\Planteamiento.png)]
+![Planteamiento](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Imagenes\Planteamiento.png)
 
 [Link](url) and ![Image](src)
 
@@ -16,7 +16,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 La PCB fue diseñada en KiCAD siguiendo el standar, esto se completara mas adelante.
 Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
-[![Diseño de la PCB](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Imagenes\PCB.png)]
+![Diseño de la PCB](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Imagenes\PCB.png)
 
 
 
@@ -25,8 +25,8 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 
 ### Sensor de temperatura
 
-[![Prueba con el sensor de temperatura](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Sensores\Pruebas_Sensores\Temp_Kish.mp4)]
+![Prueba con el sensor de temperatura](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Sensores\Pruebas_Sensores\Temp_Kish.mp4)
 
 ### Sensor de PH
 
-[![Prueba con el sensor de PH](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Sensores\Pruebas_Sensores\PH_Juan.mp4)]
+![Prueba con el sensor de PH](C:\Users\jual1\OneDrive\Documentos\Unal\XVI\Embebidos\Proyecto\Sensores\Pruebas_Sensores\PH_Juan.mp4)
