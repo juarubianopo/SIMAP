@@ -16,7 +16,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 La PCB fue diseñada en KiCAD siguiendo el standar, esto se completara mas adelante.
 Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
-![Diseño de la PCB](https://github.com/juarubianopo/SIMAP/tree/gh-pages/Imagenes/PCB.png)
+![Diseño de la PCB](https://github.com/juarubianopo/SIMAP/tree/gh-pages/Imagenes/PCB.png){width='100px'}
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
 
 
 
