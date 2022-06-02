@@ -11,16 +11,37 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 
-## Diseño de la PCB
+## Diseño de la PCB en KiCad
 
 La PCB fue diseñada en KiCAD siguiendo el standar, esto se completara mas adelante.
 Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
+# Esquematico.
+<img src="Imagenes/Squemat.jpeg" >
+# Etapa de procesador.
+<img src="Imagenes/ESP32.jpeg" >
+# Etaoa de sensores y salidas.
+<img src="Imagenes/Sensoysal.jpeg" >
+# Etapa de Actuadores.
+<img src="Imagenes/Actuadores.jpeg" >
+# Etapa de potencia.
+<img src="Imagenes/Potencia.jpeg" >
 
 
-<img src="Imagenes/PCB.png" >
+
+<img src="Imagenes/PCBKicad.jpeg" >
+
+# Diseño en 3D
+
+<img src="Imagenes/D3D.jpeg">
+
+## PCB lista para soldar
+# Top
+<img src="Imagenes/Top.jpg">
 
 
+# Botton
+<img src="Imagenes/Botton.jpg">
 
 ## Pruebas de sensores
 se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta seccion:
