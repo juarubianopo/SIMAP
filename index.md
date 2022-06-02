@@ -20,7 +20,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 <img src="Imagenes/Squemat.jpeg" >
 # Etapa de procesador.
 <img src="Imagenes/ESP32.jpeg" >
-# Etaoa de sensores y salidas.
+# Etapa de sensores y salidas.
 <img src="Imagenes/Sensoysal.jpeg" >
 # Etapa de Actuadores.
 <img src="Imagenes/Actuadores.jpeg" >
