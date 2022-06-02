@@ -9,6 +9,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <img src="Imagenes/Planteamiento.png" >
 
+### Esquema funcional
+
+
+<img src="Imagenes/Esquema_funcional.png" >
 
 
 ## Diseño de la PCB en KiCad
