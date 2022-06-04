@@ -47,7 +47,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 # Bottom
 <img src="Imagenes/Bottom.jpg">
 
-## Prueba de PAntalla
+## Prueba de Pantalla
 
 <img src="Imagenes/pant.jpeg">
 
