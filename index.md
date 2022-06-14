@@ -54,6 +54,10 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 <img src="Imagenes/pant.jpeg">
 
+## Proceso de Montaje de componentes en la PCB
+
+<img src="Imagenes/PCB_sold_1.jpg" >
+
 ## Pruebas de sensores
 se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta seccion:
 
