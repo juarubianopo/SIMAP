@@ -55,7 +55,10 @@ A continuación los sensores  que se dividen en dos  grupos digital ( DS18B20 Te
 
 <img src="Imagenes/Sensoysal.jpeg" >
 
-Acoples de PH y turbidez
+
+## Acoples de PH y turbidez
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores.png" >
+
 # Etapa de Actuadores
 
 <img src="Imagenes/Actuadores.jpeg" >
