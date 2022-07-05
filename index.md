@@ -31,6 +31,11 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 <img src="Imagenes/Squemat.jpeg" >
 
+
+# Etapa de potencia
+
+<img src="Imagenes/Potencia.jpeg" >
+
 # Etapa de procesador
 
 <img src="Imagenes/ESP32.jpeg" >
@@ -45,7 +50,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 # Etapa de potencia
 
-<img src="Imagenes/Potencia.jpeg" >
+
 
 # PCB en KiCad
 
