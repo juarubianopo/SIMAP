@@ -51,9 +51,11 @@ La ESP32 requiere  de la alimentación  pin 1 ( GND)  2(3,3v)   seguidamente de 
 <img src="Imagenes/ESP32.jpeg" >
 
 # Etapa de sensores y salidas
+A continuación los sensores  que se dividen en dos  grupos digital ( DS18B20 Tem) y  análogos(pH, turbidez. )  El sensor   de temperatura  requería una resistencia   en su acople  los demás sensores  traen sus módulos
 
 <img src="Imagenes/Sensoysal.jpeg" >
 
+Acoples de PH y turbidez
 # Etapa de Actuadores
 
 <img src="Imagenes/Actuadores.jpeg" >
