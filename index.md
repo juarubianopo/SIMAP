@@ -54,10 +54,10 @@ por tal razón se plantea un sistema de monitoreo de agua para la piscicultura d
 
 | Sensores | Sensor de oxígeno disuelto con comunicación digital  | Sensor Medidor de Oxígeno | Sensor de oxígeno disuelto galvanizado | Sonda Óptica de Oxígeno Disuelto|
 | --- | --- | --- | --- | --- |
-| Modelo | DO6400  |  REF DO-5510 MARCA LUTRON MODELO OXPB 09N | DO1200  | OD 8525 |
-| Descripción | Sensor galvánico de oxígeno disuelto  | Se utiliza la salida de 9 pines del conector DIN. | Mide el contenido de oxígeno del agua utilizando un principio de medición electroquímico.  | Sonda de inmersión. Mide oxígeno disuelto mediante fluorescencia. Incluye el sensor interno de compensación automática de temperatura. |
+| Modelo | DO6400  |  REF DO-5510 | DO1200  | OD 8525 |
+| Descripción | Sensor galvánico de oxígeno disuelto  | Se utiliza la salida de 9 pines del conector DIN. | Mide el contenido de oxígeno del agua utilizando un principio de medición electroquímico.  | Sonda de inmersión. Mide oxígeno disuelto mediante fluorescencia. |
 | Precio (COP) | $ 2.218.585,22 – $ 2.964.929,55  | $915,278.15  | 892.267,20 -1.003.800,60 | $ 529.622 |
-| Integración al sistema | Utiliza una señal de salida digital directa de milivoltios, 4-20 mA o MODBUS/RS485 para integrarse con un PLC u otro sistema de control | Sonda exclusiva de oxígeno disuelto para medidor de oxígeno disuelto, DO-5509. | | Proporciona una señal de bucle de corriente de 4-20 mA proporcional a la medición, que se puede suministrar directamente a un PLC, o una salida digital RS485. |
+| Integración al sistema | Utiliza señal de salida digital (mv), 4-20 mA o MODBUS/RS485 | Sonda de oxígeno disuelto  | | Proporciona una señal de bucle de corriente  4-20 mA se puede suministrar a un PLC, o una salida digital RS485. |
 | Especificaciones | Tensión de entrada: 12 V CC: solo MODBUS 24 V CC – 4-20 mA y MODBUS |  |  | Alimentación: 9/36 Vcc, Temperatura: -5/50 °C, Presión: máx. 6 bar a 25 °C, Longitud: 143 mm, Cable: 10 m |
 | Enlace de Compra | [Sensorex](https://sensorex.com/product/do6400-dissolved-oxygen-sensor-with-digital-communication/) | [Opensky](https://www.openskycolombia.com/equipos/sensor-para-medidor-de-oxigeno-ref-do-5510-marca-lutron-modelo-oxpb-09n/) | [Sensorex](https://sensorex.com/product/do1200-galvanic-dissolved-oxygen-sensor/) | [Instrumatic](https://instrumatic.com.co/producto/sonda-optica-de-oxigeno-disuelto-od-8525/) [Mercado Libre](https://articulo.mercadolibre.com.co/MCO-632803463-medidor-de-oxigeno-disuelto-profesional-digital-disuelto-oxi-_JM#position=51&search_layout=stack&type=item&tracking_id=952ea0b8-07f6-4bc8-9dc4-447e8dacd8dc) 
 
@@ -80,7 +80,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 # Etapa de potencia
 Se pensó en una alimentación de 12V  en caso de la utilización de la batería, en los lugares  del campo que no tiene acceso a red eléctrica.  EL TVS es  para la protección  en caso de sobretensión.   El 1N5822 es un  rectificador de barrera Schottky es un diodo de potencia ideal para ser usado como rectificador en inversores de baja tensión. el condensador  es un  filtro a posibles ruidos 
 
-<img src=Imagenes/potencia1.png >
+<img src="Imagenes/potencia1.png" >
 
 ## El Convertidor  de 12V a  3,3V 
 El chip de la ESP32 requieren una alimentación  de 3,3V  los demás sensores seleccionados funcionan en tensiones 5V a 3,3V   por practicidad 3,3V para el funcionamiento de todos los dispositivos. Se diseñó el circuito propuesto por el datashee del convertidor LM2596s
