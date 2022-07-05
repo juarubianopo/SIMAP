@@ -107,6 +107,9 @@ A continuación los sensores  que se dividen en dos  grupos digital ( DS18B20 Te
 
 # Etapa de Actuadores y salida
 
+Para   los dos actuadores  se usaron  2 relés, se diseñó un circuito para su acople.  Existen  una pantalla y buffer  para la comunicación  humana. 
+
+
 <img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
 
 # Etapa de potencia
