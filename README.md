@@ -1,5 +1,5 @@
 #  Sistema de Monitoreo de Agua para la Piscicultura de Tilapia - SIMAP
-Este proyecto plantea el diseño y la implementación de un prototipo compuesto por cuatro sensores (temperatura, PH, oxígeno, turbidez), los cuales monitorean la calidad del agua para que la crianza de peces, en este caso de tilapia.
+Este proyecto plantea el diseño y la implementación de un prototipo compuesto por cuatro sensores (temperatura, PH, oxígeno, turbidez), los cuales monitorean la calidad del agua para que crianza de peces, en este caso de tilapia, sea la más adecuada para su consumo.
 
 Toda la documentación referente al proyecto se encuentra en nuestra página web: https://juarubianopo.github.io/SIMAP/ 
 
