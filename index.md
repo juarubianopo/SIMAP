@@ -33,8 +33,16 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 
 # Etapa de potencia
+Se pensó en una alimentación de 12V  en caso de la utilización de la batería, en los lugares  del campo que no tiene acceso a red eléctrica.  EL TVS es  para la protección  en caso de sobretensión.   El 1N5822 es un  rectificador de barrera Schottky es un diodo de potencia ideal para ser usado como rectificador en inversores de baja tensión. el condensador  es un  filtro a posibles ruidos 
 
 <img src=https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/potencia1.png >
+
+## El Convertidor  de 12V a  3,3V 
+El chip de la ESP32 requieren una alimentación  de 3,3V  los demás sensores seleccionados funcionan en tensiones 5V a 3,3V   por practicidad 3,3V para el funcionamiento de todos los dispositivos. Se diseñó el circuito propuesto por el datashee del convertidor LM2596s
+
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/lm2596.png" >
+
+
 
 # Etapa de procesador
 
