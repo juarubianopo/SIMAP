@@ -80,12 +80,12 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 # Etapa de potencia
 Se pensó en una alimentación de 12V  en caso de la utilización de la batería, en los lugares  del campo que no tiene acceso a red eléctrica.  EL TVS es  para la protección  en caso de sobretensión.   El 1N5822 es un  rectificador de barrera Schottky es un diodo de potencia ideal para ser usado como rectificador en inversores de baja tensión. el condensador  es un  filtro a posibles ruidos 
 
-<img src=https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/potencia1.png >
+<img src=Imagenes/potencia1.png >
 
 ## El Convertidor  de 12V a  3,3V 
 El chip de la ESP32 requieren una alimentación  de 3,3V  los demás sensores seleccionados funcionan en tensiones 5V a 3,3V   por practicidad 3,3V para el funcionamiento de todos los dispositivos. Se diseñó el circuito propuesto por el datashee del convertidor LM2596s
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/lm2596.png" >
+<img src="Imagenes/lm2596.png" >
 
 
 
@@ -98,11 +98,11 @@ La ESP32 requiere  de la alimentación  pin 1 ( GND)  2(3,3v)   seguidamente de 
 # Etapa de sensores y salidas
 A continuación los sensores  que se dividen en dos  grupos digital ( DS18B20 Tem) y  análogos(pH, turbidez. )  El sensor   de temperatura  requería una resistencia   en su acople  los demás sensores  traen sus módulos
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores11.png" />
+<img src="Imagenes/sensores11.png" >
 
 
 ## Acoples de PH y turbidez
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores.png" />
+<img src="Imagenes/sensores.png" >
 
 # Etapa de Actuadores
 
