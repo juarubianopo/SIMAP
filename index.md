@@ -107,7 +107,7 @@ A continuación los sensores  que se dividen en dos  grupos digital ( DS18B20 Te
 
 # Etapa de Actuadores y salida
 
-<img src="Imagenes/Actuadores.jpeg" >
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
 
 # Etapa de potencia
 
