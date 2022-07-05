@@ -34,7 +34,7 @@ Se realizo el ruteo y se finalizo la PCB quedando de la siguiente forma:
 
 # Etapa de potencia
 
-<img src="Imagenes/Potencia.jpeg" >
+<img src=https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/potencia1.png >
 
 # Etapa de procesador
 
