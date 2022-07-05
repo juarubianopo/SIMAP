@@ -1,6 +1,6 @@
 # Contexto
 
-La piscicultura es el cultivo o crianza de peces controlada y hace parte del sector acuícola en Colombia, durante los últimos años ha aumentado el consumo de estos productos tanto al interior como al exterior del país. El sector acuícola y pesquero se ha visto beneficiado gracias a las exportaciones a distintos países, especialmente a: Estados Unidos con 53,1 millones (USD),  Ecuador con 11,7 millones (USD), Francia con 8,2 millones (USD) y España con 7,1 millones (USD) [1](https://red.uao.edu.co/bitstream/handle/10614/11594/T08756.pdf?sequence=6&isAllowed=y). Además, con los acuerdos TLC (Tratado de Libre Comercio) vigentes con estos y otros países se identificó el potencial comercial que tiene la industria respecto a la producción de camarón, tilapia y trucha, pues el porcentaje de los aranceles para estos productos serán del 0% en algunos países, por lo que es una gran oportunidad para que dicha industria se vea beneficiada[2](https://procolombia.co/archivo/productos-acuicolas-y-pesqueros-llegan-mesas-europeas-asiaticas-y-norteamericanas).
+La piscicultura es el cultivo o crianza de peces controlada y hace parte del sector acuícola en Colombia, durante los últimos años ha aumentado el consumo de estos productos tanto al interior como al exterior del país. El sector acuícola y pesquero se ha visto beneficiado gracias a las exportaciones a distintos países, especialmente a: Estados Unidos con 53,1 millones (USD),  Ecuador con 11,7 millones (USD), Francia con 8,2 millones (USD) y España con 7,1 millones (USD) [1](https://red.uao.edu.co/bitstream/handle/10614/11594/T08756.pdf?sequence=6&isAllowed=y). Además, con los acuerdos TLC (Tratado de Libre Comercio) vigentes con estos y otros países se identificó el potencial comercial que tiene la industria respecto a la producción de camarón, tilapia y trucha, pues el porcentaje de los aranceles para estos productos serán del 0% en algunos países, por lo que es una gran oportunidad para que dicha industria se vea beneficiada [2](https://procolombia.co/archivo/productos-acuicolas-y-pesqueros-llegan-mesas-europeas-asiaticas-y-norteamericanas).
 
 Una de las razones, por la que los productos acuícolas y pesqueros colombianos tienen acogida en países extranjeros es debido a que se perciben como alimentos saludables y de producción sostenible, lo cual, es uno de los objetivos del sector piscícola, la obtención de una proteína con calidad dietaria para cubrir la demanda que la pesca libre no llega a generar.
 
@@ -10,11 +10,56 @@ Para que los productores aprovechen dichas ventajas del mercado, se hace necesar
 Otr
 # Propuesta
 
-Cada una de estas variables puede afectar la salud de los peces, cualquier nivel impropio de oxígeno disuelto, nitritos o sulfuro de hidrógeno los lleva a sufrir estrés y enfermedades, los niveles de temperatura y PH desbalanceados aumentan la toxicidad del amoníaco y del sulfuro de hidrógeno [3(https://aquafeed.co/entrada/monitoreo-de-la-calidad-de-agua-del-estanque-para-mejorar-la-producci-n-de-camarones-y-peces-20528/)
+Cada una de estas variables puede afectar la salud de los peces, cualquier nivel impropio de oxígeno disuelto, nitritos o sulfuro de hidrógeno los lleva a sufrir estrés y enfermedades, los niveles de temperatura y PH desbalanceados aumentan la toxicidad del amoníaco y del sulfuro de hidrógeno [3](https://aquafeed.co/entrada/monitoreo-de-la-calidad-de-agua-del-estanque-para-mejorar-la-producci-n-de-camarones-y-peces-20528/)
 por tal razón se plantea un sistema de monitoreo de agua para la piscicultura de tilapia. 
 
 
-El sistema de monitoreo, de ahora en adelante SIMAP
+# Sensores Investigados 
+
+## Sensor de PH
+
+| Sensor | Temperatura | Costo | Precisión |
+| ------------- | ------------- | ------------- | ------------- |
+| SEN0161 | 0 - 60 °C  | $ 154.700 cop  | ± 0.1 pH (25 ℃) |
+| DFR0300 | 0 - 40 °C   | $ 357.000 cop  | ± 5% |
+| PH - 4502C | 0 - 80 °C   | $ 51.200 cop  | ± 5% |
+
+## Sensor de Turbidez
+
+| Sensor | Temperatura | Costo | Precisión |
+| ------------- | ------------- | ------------- | ------------- |
+| SEN0189 | -50 - 90 °C  | $ 57.120 cop  | 10% |
+| TSW-20M | -30 - 80 °C   | $ 49.000 cop  | ± 5% |
+
+## Sensor de Temperatura
+
+| Sensor | Temperatura | Costo | Precisión |
+| ------------- | ------------- | ------------- | ------------- |
+| MTK-01 | -40 - +204 °C  | $ 14.875 cop  | ± 0,75°C Leit. o ± 2.2 °C |
+| SEN PT100 | -50 - +250 °C   |  | ± 0,5 °C |
+| SEN DS18B20 | -55 - +125 °C   | $ 19.992  | ± 0,5 °C|
+
+## Dióxido de Oxígeno Disuelto
+
+| Sensores | Sensor de CO2 disuelto en agua | Sensor de CO2 disuelto óptico |
+| --- | --- | --- | 
+| Descripción | Es un módulo de detección de gas para detectar la concentración de dióxido de carbono en una solución acuosa | El sensor está diseñado para una profundidad de hasta 1.000 m, tiene una salida analógica o digital, una absorción de corriente reducida |
+| Especificación | |Dimensiones: 225mm de longitud, 33mm de diámetro, Conector: Subconn MCBH4M, Fuente de alimentación: 12-30 V CC al usar la salida digital o de voltaje o 20-30 V CC al usar la salida de corriente, Consumo de energía: <0,5 W, Tiempo de calentamiento: <12 segundos, <2 minutos para una precisión total, Profundidad máxima de despliegue: 1.000 m/1.000 dbar, Rango de temperatura para almacenamiento y medición: 0... 60 °C|
+| Precio (COP) | 378.206,40 - 2.647.444,80  | Cotización |
+| Integración al sistema | Tiene UART, salida digital CII, salida de tensión analógica y modo de salida de frecuencia PWM, que es conveniente para los clientes para elegir aplicaciones. | El sensor está diseñado para ser entrelazado para sistemas de sonda CTD externos, para sistemas de medición propios o como sensor independiente. |
+| Enlace de Compra | [Alibaba](https://spanish.alibaba.com/product-detail/kws5000-dissolved-co2-sensor-in-water-62249774554.html) | [Alibaba](https://spanish.alibaba.com/product-detail/Membrane-Covered-Optical-Dissolved-CO2-Sensor-60692709391.html) | 
+
+
+## Sensor Oxígeno Disuelto
+
+| Sensores | Sensor de oxígeno disuelto con comunicación digital  | Sensor Medidor de Oxígeno | Sensor de oxígeno disuelto galvanizado | Sonda Óptica de Oxígeno Disuelto|
+| --- | --- | --- | --- | --- |
+| Modelo | DO6400  |  REF DO-5510 MARCA LUTRON MODELO OXPB 09N | DO1200  | OD 8525 |
+| Descripción | Sensor galvánico de oxígeno disuelto  | Se utiliza la salida de 9 pines del conector DIN. | Mide el contenido de oxígeno del agua utilizando un principio de medición electroquímico.  | Sonda de inmersión. Mide oxígeno disuelto mediante fluorescencia. Incluye el sensor interno de compensación automática de temperatura. |
+| Precio (COP) | $ 2.218.585,22 – $ 2.964.929,55  | $915,278.15  | 892.267,20 -1.003.800,60 | $ 529.622 |
+| Integración al sistema | Utiliza una señal de salida digital directa de milivoltios, 4-20 mA o MODBUS/RS485 para integrarse con un PLC u otro sistema de control | Sonda exclusiva de oxígeno disuelto para medidor de oxígeno disuelto, DO-5509. | | Proporciona una señal de bucle de corriente de 4-20 mA proporcional a la medición, que se puede suministrar directamente a un PLC, o una salida digital RS485. |
+| Especificaciones | Tensión de entrada: 12 V CC: solo MODBUS 24 V CC – 4-20 mA y MODBUS |  |  | Escala: 0/20 ppm – 0/200% de saturación de aire, Alimentación: 9/36 Vcc, Carga máx.: 600 Ω a 24 Vcc, Compensación de temperatura: automática, Temperatura: -5/50 °C, Presión: máx. 6 bar a 25 °C, Cuerpo: PVC, Longitud: 143 mm, Cable: 10 m |
+| Enlace de Compra | [Sensorex](https://sensorex.com/product/do6400-dissolved-oxygen-sensor-with-digital-communication/) | [Opensky](https://www.openskycolombia.com/equipos/sensor-para-medidor-de-oxigeno-ref-do-5510-marca-lutron-modelo-oxpb-09n/) | [Sensorex](https://sensorex.com/product/do1200-galvanic-dissolved-oxygen-sensor/) | [Instrumatic](https://instrumatic.com.co/producto/sonda-optica-de-oxigeno-disuelto-od-8525/) [Mercado Libre](https://articulo.mercadolibre.com.co/MCO-632803463-medidor-de-oxigeno-disuelto-profesional-digital-disuelto-oxi-_JM#position=51&search_layout=stack&type=item&tracking_id=952ea0b8-07f6-4bc8-9dc4-447e8dacd8dc) 
 
 # Esquema funcional
 
