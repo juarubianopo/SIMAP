@@ -46,6 +46,8 @@ El chip de la ESP32 requieren una alimentación  de 3,3V  los demás sensores se
 
 # Etapa de procesador
 
+La ESP32 requiere  de la alimentación  pin 1 ( GND)  2(3,3v)   seguidamente de los    botones de   programación en los pines  3 EN y  25 
+
 <img src="Imagenes/ESP32.jpeg" >
 
 # Etapa de sensores y salidas
