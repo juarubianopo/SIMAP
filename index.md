@@ -94,7 +94,7 @@ Se pensó en una alimentación de 12V  en caso de la utilización de la batería
 <img src="Imagenes/potencia1.png" >
 
 ## El Convertidor  de 12V a  3,3V 
-El chip de la ESP32 requieren una alimentación  de 3,3V  los demás sensores seleccionados funcionan en tensiones 5V a 3,3V   por practicidad 3,3V para el funcionamiento de todos los dispositivos. Se diseñó el circuito propuesto por el datashee del convertidor LM2596s
+El chip de la ESP32 requieren una alimentación  de 3,3V  los demás sensores seleccionados funcionan en tensiones 5V a 3,3V   por practicidad 3,3V para el funcionamiento de todos los dispositivos. Se diseñó el circuito propuesto por el datasheet del convertidor LM2596s
 
 <img src="Imagenes/lm2596.png" >
 
