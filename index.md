@@ -125,7 +125,7 @@ Error en la   huella de  BT3904
 
 A la capa  button  no se le puso la capa de tierra. 
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/solucion.png" >
 
 
 
