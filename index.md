@@ -298,5 +298,5 @@ Primero se fijan las piezas de la caja con superbonder.
 Luego de tener lacaja fija se pone una capa de colbon de madera para tener una estructura mas firme.
 
 # Montaje Final 
-<img src="Imagenes/WhatsApp%20Image%202022-07-06%20at%209.38.18%20AM.jpeg"  > 
+
 <img src="Imagenes/WhatsApp%20Image%202022-07-06%20at%209.38.55%20AM.jpeg"  >
