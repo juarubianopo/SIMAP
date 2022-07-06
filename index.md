@@ -138,11 +138,6 @@ A la capa  button  no se le puso la capa de tierra.
 
 <img src="Imagenes/error_dos.png" >
 
-
-# Diseño en 3D
-
-<img src="Imagenes/D3D.jpeg">
-
 # PCB lista para soldar
 Para la  impresión de la  PCB   se recurrió a JLC PCB que  es una  empresa  China. Además  de mandar  la información  de kitkat  se recurre  a otros software  para  la   perforación  de la PCB.  El costo  total  fue 16 dólares, para 5 placas con  envio de 9 días.    
 
@@ -159,6 +154,8 @@ Luego de tener la PCB se procede al proceso de montaje de los componentes, una p
 Despues de un arduo trabajo se tiene la PCB con sus componentes puestos quedando de la siguiente forma:
 
 <img src="Imagenes/PCB_FInal.jpg" >
+
+# Pruebas 
 
 ## Prueba de Pantalla
 
@@ -215,12 +212,7 @@ Haciendo uso de  todo lo mencionado se prueba la pantalla con un módulo ESP32 g
 <img src="Imagenes/pant.jpeg">
 
 
-
-
-## Pruebas de sensores
-se adjuntan videos de las pruebas de los sensores.
-
-### Sensor de temperatura
+## Sensor de temperatura
 
 El sensor  de  temperatura  es un sensor digital que   tiene  dos posibles formas de  configuración 
 
@@ -239,9 +231,9 @@ Energía directamente desde la línea de datos ("energía parásita")
 
 
 
-### Sensor de PH
+## Sensor de PH
 El parámetro de pH se mide   de 0 a 14,  siendo el  agua  7  que es neutro. 7,1 hasta 14 es básico y de 0 a 6,9 es ácido.  se recomienda no medir productos muy ácidos  cercano a cero, o muy alcalinos cercanos a 14 puede dañar el sensor.   
-``` `Python
+``` Python
 def PHread():
     
     global PHval
@@ -256,10 +248,10 @@ def PHread():
 <iframe width="854" height="480" src="Imagenes/PH_Juan.mp4" type="video/mp4">
 </iframe>
 
-### Sensor Turbidez
+## Sensor Turbidez
 
 El  principio  de funcionamiento del sensor de turbidez es por  intensidad de iluminación, se tiene un fotoemisor y  un fotorreceptor,  según la difracción o disminución en la intensidad se calcula. sus  unidades nefelométricas de turbidez (NTU)
-````Python
+```Python
 def TRBread():
     
     global turb
@@ -275,14 +267,21 @@ def TRBread():
 <iframe width="854" height="480" src="Imagenes/P_Turbio_1.mp4" type="video/mp4">
 </iframe>
  
+ # Diseño en 3D y Corte Láser
 
+## 
+El diseño de la caja del sistema se realiza en el programa Fusion 360, para esto se descargó el modelo 3D de la PCB en KiCad para tener en cuenta los parámetros y medidas correspondientes. A continuación el modelo 3D del sistema:
 
+<img src="Imagenes/ezgif.com-gif-maker%20(1).gif"> [^1]
 
+[^1]: Los modelos 3D de los componentes usados en la animación fueron tomados de https://grabcad.com/ 
 
+## Corte Láser
+Para el montaje final del sistema, se realizó el plano en 2D para corte láser.
 
-
-# Empezando a armar la caja
-
+ 
+ 
+# Montaje 
 Ya teniendo los cortes de la caja se procede a poner los componentes que van en sus paredes, como son terminales de los sensores, display y LEDs.
 
 <img src="Imagenes/Prueba_Display.jpg" >
@@ -291,9 +290,9 @@ Luego de poner los Leds y el display se tiene la parte frontal, vamos a empezar 
 
 <img src="Imagenes/Armado_frontal.jpg" >
 
-Priemero se fijan las piezas de la caja con superbonder.
+Primero se fijan las piezas de la caja con superbonder.
 
-<img src="Imagenes/Armado de caja_1.jpg" >
+<img src="Imagenes/Armado de caja_1.jpg"  >
 
 Luego de tener lacaja fija se pone una capa de colbon de madera para tener una estructura mas firme.
 
