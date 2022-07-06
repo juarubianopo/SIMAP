@@ -162,48 +162,6 @@ Despues de un arduo trabajo se tiene la PCB con sus componentes puestos quedando
 
 ## Prueba de Pantalla
 
-<img src="Imagenes/pant.jpeg">
-
-
-## Pruebas de sensores
-se adjuntan videos de las pruebas de los sensores.
-
-### Sensor de temperatura
-
-El sensor  de  temperatura  es un sensor digital que   tiene  dos posibles formas de  configuración 
-
-
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/tempera.png">
-
-Se comunica a través de un bus de 1 cable que, por definición, sólo requiere una línea de datos (y tierra) para la comunicación con una central  microprocesadora.
-
-Energía directamente desde la línea de datos ("energía parásita")
-
-
-
-
-<iframe width="640" height="352" src="Imagenes/Temp_Kish.mp4" type="video/mp4">
-</iframe>
-
-
-
-### Sensor de PH
-El parámetro de pH se mide   de 0 a 14,  siendo el  agua  7  que es neutro. 7,1 hasta 14 es básico y de 0 a 6,9 es ácido.  se recomienda no medir productos muy ácidos  cercano a cero, o muy alcalinos cercanos a 14 puede dañar el sensor.   
-
-
-
-<iframe width="854" height="480" src="Imagenes/PH_Juan.mp4" type="video/mp4">
-</iframe>
-
-### Sensor Turbidez
-
-El  principio  de funcionamiento del sensor de turbidez es por  intensidad de iluminación, se tiene un fotoemisor y  un fotorreceptor,  según la difracción o disminución en la intensidad se calcula. sus  unidades nefelométricas de turbidez (NTU) 
-
-<iframe width="854" height="480" src="Imagenes/P_Turbio_1.mp4" type="video/mp4">
-</iframe>
- 
-### la pantalla OLE
-
 Como principal forma de interacción con el dispositivo se utiliza la pantalla OLED (128x64) de 0.96 pulgadas SSD1306, esta pantalla utiliza una comunicación SPI la cual se realiza mediante las librerías disponibles en Micro Python. Las librerías principales para utilizar la pantalla son GFX y SSD1306. En el código principal se crean los objetos correspondientes a las librerías “graphics” y “oled” respectivamente.
 ```Python
 from machine import Pin, ADC, SoftSPI
@@ -253,6 +211,51 @@ def PHread():
          graphics.fill_rect(26,40,40,7,BLACK);
 ```
 Haciendo uso de  todo lo mencionado se prueba la pantalla con un módulo ESP32 genérico haciendo que muestre lo que se ve en la imagen.
+
+<img src="Imagenes/pant.jpeg">
+
+
+
+
+## Pruebas de sensores
+se adjuntan videos de las pruebas de los sensores.
+
+### Sensor de temperatura
+
+El sensor  de  temperatura  es un sensor digital que   tiene  dos posibles formas de  configuración 
+
+
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/tempera.png">
+
+Se comunica a través de un bus de 1 cable que, por definición, sólo requiere una línea de datos (y tierra) para la comunicación con una central  microprocesadora.
+
+Energía directamente desde la línea de datos ("energía parásita")
+
+
+
+
+<iframe width="640" height="352" src="Imagenes/Temp_Kish.mp4" type="video/mp4">
+</iframe>
+
+
+
+### Sensor de PH
+El parámetro de pH se mide   de 0 a 14,  siendo el  agua  7  que es neutro. 7,1 hasta 14 es básico y de 0 a 6,9 es ácido.  se recomienda no medir productos muy ácidos  cercano a cero, o muy alcalinos cercanos a 14 puede dañar el sensor.   
+
+
+
+<iframe width="854" height="480" src="Imagenes/PH_Juan.mp4" type="video/mp4">
+</iframe>
+
+### Sensor Turbidez
+
+El  principio  de funcionamiento del sensor de turbidez es por  intensidad de iluminación, se tiene un fotoemisor y  un fotorreceptor,  según la difracción o disminución en la intensidad se calcula. sus  unidades nefelométricas de turbidez (NTU) 
+
+<iframe width="854" height="480" src="Imagenes/P_Turbio_1.mp4" type="video/mp4">
+</iframe>
+ 
+
+
 
 
 
