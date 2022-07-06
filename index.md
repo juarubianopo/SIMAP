@@ -6,13 +6,24 @@ Una de las razones, por la que los productos acuícolas y pesqueros colombianos 
 
 # Planteamiento del Problema
 
-Para que los productores aprovechen dichas ventajas del mercado, se hace necesario que obtengan los resultados esperados en la crianza de los peces para su posterior venta, sin embargo, uno de los problemas identificados es el ambiente poco controlado de los estanques de crianza de peces, según la FAO las etapas de mayor riesgo e incertidumbre por el alto índice de mortalidad, son en las ovas, las larvas y los alevinos, puesto que son suceptibles a cambios en los niveles de PH y de oxígeno disuelto como principales factores. También se debe mantener un control de las sustancias quimicas usadas en los estanques para su defección y tratamienta, puesto que se pueden sobrepasar las cantidades límite que protegen la salud de los peces, como  el amonio y los nitritos, los cuales presentan un indicador mayor de toxidad que se origina  son por las heces de los animales [4](https://lainholding.com/tilapia-control-de-calidad-del-agua/)
-Otr
+Para que los productores aprovechen dichas ventajas del mercado, se hace necesario que obtengan los resultados esperados en la crianza de los peces para su posterior venta, sin embargo, uno de los problemas identificados es el ambiente poco controlado de los estanques de crianza de peces, según la FAO las etapas de mayor riesgo e incertidumbre por el alto índice de mortalidad, son en las ovas, las larvas y los alevinos, puesto que son suceptibles a cambios en los niveles de PH y de oxígeno disuelto como principales factores [3](https://lainholding.com/tilapia-control-de-calidad-del-agua/).. También se debe mantener un control de las sustancias quimicas usadas en los estanques para su defección y tratamienta, puesto que se pueden sobrepasar las cantidades límite que protegen la salud de los peces, como  el amonio y los nitritos, los cuales presentan un indicador mayor de toxidad que se origina  son por las heces de los animales [4](https://www.hannacolombia.com/aqua/blog/item/monitoreo-de-agua-en-piscicultura).
+
 # Propuesta
 
-Cada una de estas variables puede afectar la salud de los peces, cualquier nivel impropio de oxígeno disuelto, nitritos o sulfuro de hidrógeno los lleva a sufrir estrés y enfermedades, los niveles de temperatura y PH desbalanceados aumentan la toxicidad del amoníaco y del sulfuro de hidrógeno [3](https://aquafeed.co/entrada/monitoreo-de-la-calidad-de-agua-del-estanque-para-mejorar-la-producci-n-de-camarones-y-peces-20528/)
+Cada una de estas variables puede afectar la salud de los peces, cualquier nivel impropio de oxígeno disuelto, nitritos o sulfuro de hidrógeno los lleva a sufrir estrés y enfermedades, los niveles de temperatura y PH desbalanceados aumentan la toxicidad del amoníaco y del sulfuro de hidrógeno [5](https://aquafeed.co/entrada/monitoreo-de-la-calidad-de-agua-del-estanque-para-mejorar-la-producci-n-de-camarones-y-peces-20528/)
 por tal razón se plantea un sistema de monitoreo de agua para la piscicultura de tilapia. 
 
+A continuación, se describen los principales parámetros que influyen en la calidad del agua durante la crianza de los peces [6](https://bernardolabs.com/parametros-clave-de-la-calidad-del-agua-para-piscicultura/):
+
+- PH, controla las cantidades disueltas en el agua de varios tipos de sustancias, generalmente un rango óptimo de PH se encuentra ente 6,5 y 8,2.
+- Temperatura, puede afectar el metabolismo de peces y camarones, los índices de alimentación y el grado de toxicidad de amoníaco, también impacta en los índices de respiración de la biota (consumo de O2) e influencia la solubilidad del o2 (agua más cálida contiene menos o2 que el agua más fresca).
+- Turbidez, se relaciona con el nivel de filtrado en el agua, algunas especies no toleran una turbidez elevada.
+- Dióxido de Carbono, al perturbar la absorción de oxígeno afecta el comportamiento de los peces, produciendoles estrés.
+- Oxígeno disuelto, la sobresaturación del oxígeno puede ser perjudicial para la producción de peces.
+- Amoníaco y Nitritos, los altos niveles de nitritos afectan la disponibilidad de oxígeno, puesto que estimulan el desarrollo de plancton y el amoníaco reduce la capacidad de los peces para llevar oxígeno a la sangre y puede sofocarlos.
+- Alcalinidad, evita los cambios bruscos del pH. Niveles de alcalinidad de 100 a 120 mg/L con pH entre 7 y 8 son reconocidos como los más favorables para una vida acuática de mayor variedad.
+
+De acuerdo con lo anterior, se investigaron y cotizaron los siguientes ensores.
 
 # Sensores Investigados 
 
@@ -44,9 +55,9 @@ por tal razón se plantea un sistema de monitoreo de agua para la piscicultura d
 | Sensores | Sensor de CO2 disuelto en agua | Sensor de CO2 disuelto óptico |
 | --- | --- | --- | 
 | Descripción | Es un módulo de detección de gas para detectar la concentración de dióxido de carbono en una solución acuosa | El sensor está diseñado para una profundidad de hasta 1.000 m, tiene una salida analógica o digital, una absorción de corriente reducida |
-| Especificación | |Dimensiones: 225mm de longitud, 33mm de diámetro, Conector: Subconn MCBH4M, Fuente de alimentación: 12-30 V CC al usar la salida digital o de voltaje o 20-30 V CC al usar la salida de corriente, Consumo de energía: <0,5 W |
+| Especificación | |Conector: Subconn MCBH4M, Fuente de alimentación: 12-30 V CC al usar la salida digital o de voltaje o 20-30 V CC al usar la salida de corriente, Consumo de energía: <0,5 W |
 | Precio (COP) | 378.206,40 - 2.647.444,80  | Cotización |
-| Integración al sistema | Tiene UART, salida digital CII, salida de tensión analógica y  salida de frecuencia PWM | Se entrelaza con sistemas de sonda CTD externos |
+| Integración al sistema | Tiene UART, salida digital CII, salida de V analógica | Se entrelaza con sistemas de sonda CTD externos |
 | Enlace de Compra | [Alibaba](https://spanish.alibaba.com/product-detail/kws5000-dissolved-co2-sensor-in-water-62249774554.html) | [Alibaba](https://spanish.alibaba.com/product-detail/Membrane-Covered-Optical-Dissolved-CO2-Sensor-60692709391.html) | 
 
 
@@ -58,11 +69,11 @@ por tal razón se plantea un sistema de monitoreo de agua para la piscicultura d
 | Descripción | Sensor galvánico de oxígeno disuelto  | Se utiliza la salida de 9 pines del conector DIN. | Mide el contenido de oxígeno del agua utilizando un principio de medición electroquímico.  | Sonda de inmersión. Mide oxígeno disuelto mediante fluorescencia. |
 | Precio (COP) | $ 2.218.585,22 – $ 2.964.929,55  | $915,278.15  | 892.267,20 -1.003.800,60 | $ 529.622 |
 | Integración al sistema | Utiliza señal de salida digital (mv), 4-20 mA o MODBUS/RS485 | Sonda de oxígeno disuelto  | | Proporciona una señal de bucle de corriente  4-20 mA se puede suministrar a un PLC, o una salida digital RS485. |
-| Especificaciones | Tensión de entrada: 12 V CC: solo MODBUS 24 V CC – 4-20 mA y MODBUS |  |  | Alimentación: 9/36 Vcc, Temperatura: -5/50 °C, Presión: máx. 6 bar a 25 °C, Longitud: 143 mm, Cable: 10 m |
+| Especificaciones | Tensión de entrada: 12 V CC: solo MODBUS 24 V CC – 4-20 mA y MODBUS |  |  | Alimentación: 9/36 Vcc, Temperatura: -5/50 °C, Presión: máx. 25 °C |
 | Enlace de Compra | [Sensorex](https://sensorex.com/product/do6400-dissolved-oxygen-sensor-with-digital-communication/) | [Opensky](https://www.openskycolombia.com/equipos/sensor-para-medidor-de-oxigeno-ref-do-5510-marca-lutron-modelo-oxpb-09n/) | [Sensorex](https://sensorex.com/product/do1200-galvanic-dissolved-oxygen-sensor/) | [Instrumatic](https://instrumatic.com.co/producto/sonda-optica-de-oxigeno-disuelto-od-8525/) [Mercado Libre](https://articulo.mercadolibre.com.co/MCO-632803463-medidor-de-oxigeno-disuelto-profesional-digital-disuelto-oxi-_JM#position=51&search_layout=stack&type=item&tracking_id=952ea0b8-07f6-4bc8-9dc4-447e8dacd8dc) 
 
 # Esquema funcional
-
+De acuerdo con la información investigada, se planteó el siguiente esquema funcional para el desarrollo del sistema de monitoreo, el cual consta de un bloque central llamado "PCB Madre" que consta del módulo de programación de la ESP 32 el cual recibirá la información a través del acondicionamiento de la señales que sean recolectadas de los sensores de PH, oxígeno, temperatura, turbidez, y nitrato. Este módulo a suvez contará con su correspoendiente driver y un convertidor DC/DC para su alimentación, el almacenamiento de los datos y un calentador de agua. La información que se recolecté a partir de los sensores se podrá visualizar en una interfaz.
 
 <img src="Imagenes/Esquema_Funcional.png" >
 
@@ -110,7 +121,7 @@ A continuación los sensores  que se dividen en dos  grupos digital ( DS18B20 Te
 Para   los dos actuadores  se usaron  2 relés, se diseñó un circuito para su acople.  Existen  una pantalla y buffer  para la comunicación  humana. 
 
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
+<img src="Imagenes/sensores12.png" >
 
 # Errores  de  diseño 
 
@@ -118,14 +129,14 @@ Error en la   huella de  BT3904
 
 
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/solucion.png" >
+<img src="Imagenes/solucion.png" >
 
 
 
 
 A la capa  button  no se le puso la capa de tierra. 
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/error_dos.png" >
+<img src="Imagenes/error_dos.png" >
 
 
 # Diseño en 3D
@@ -136,7 +147,7 @@ A la capa  button  no se le puso la capa de tierra.
 Para la  impresión de la  PCB   se recurrió a JLC PCB que  es una  empresa  China. Además  de mandar  la información  de kitkat  se recurre  a otros software  para  la   perforación  de la PCB.  El costo  total  fue 16 dólares, para 5 placas con  envio de 9 días.    
 
 ## Top Y Bottom
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/JLC_PCB.png">
+<img src="Imagenes/JLC_PCB.png">
 
 
 # Proceso de Montaje de componentes en la PCB
@@ -149,7 +160,7 @@ Para la  impresión de la  PCB   se recurrió a JLC PCB que  es una  empresa  Ch
 
 
 ## Pruebas de sensores
-se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta seccion:
+se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mejor esta sección:
 
 ### Sensor de temperatura
 
