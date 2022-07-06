@@ -202,6 +202,60 @@ El  principio  de funcionamiento del sensor de turbidez es por  intensidad de il
 <iframe width="854" height="480" src="Imagenes/P_Turbio_1.mp4" type="video/mp4">
 </iframe>
  
+### la pantalla OLE
+
+Como principal forma de interacción con el dispositivo se utiliza la pantalla OLED (128x64) de 0.96 pulgadas SSD1306, esta pantalla utiliza una comunicación SPI la cual se realiza mediante las librerías disponibles en Micro Python. Las librerías principales para utilizar la pantalla son GFX y SSD1306. En el código principal se crean los objetos correspondientes a las librerías “graphics” y “oled” respectivamente.
+```Python
+from machine import Pin, ADC, SoftSPI
+import ssd1306
+import gfx
+from time import sleep
+
+# ESP32 Pin assignment
+
+spi = SoftSPI(sck=Pin(18), mosi=Pin(23), miso=Pin(21))
+dc = Pin(19)
+res = Pin(22)
+cs = Pin(4)
+
+oled = ssd1306.SSD1306_SPI(oled_width, oled_height, spi, dc, res, cs)
+graphics = gfx.GFX(oled_width, oled_height, oled.pixel)
+```
+El método utilizado para escribir todos los textos incluidas las lecturas de los sensores es el método text() del objeto oled, utilizando este método se hace la función que escribe lo que el usuario final vera en la pantalla 
+```Python
+def showParam(tmp, turb, PH, EV1, EV2):
+    #Titulo
+    oled.text("SIMAP",2,2, WHITE)
+    oled.text("Bienvenido",40,9, WHITE)
+    #Menu
+    oled.text("Temp: ",2,20, WHITE)
+    oled.text("Turb:",2,30, WHITE)
+    oled.text("PH:",2,40, WHITE)
+    oled.text("EV1:",2,50, WHITE)
+    oled.text("EV2:",60,50, WHITE)
+    #Datos
+    oled.text(str(tmp)+" C",42,20, WHITE)
+    oled.text(str(turb),42,30, WHITE)
+    oled.text(str(PH),26,40, WHITE)
+    oled.text(EV1,35,50, WHITE)
+    oled.text(EV2,92,50, WHITE)
+    oled.show()
+```
+Por otra parte, para actualizar las lecturas y dibujar diversas formas se utilizan los diferentes métodos del objeto graphics como line(), fill_rect(), entre otros, un ejemplo es la función de lectura del PH donde se dibuja un rectángulo negro para actualizar el dato.
+```Python
+def PHread():
+    
+    global PHval
+    
+    if (PH.read()!=0):
+       if(PH.read()!=PHval):
+         PHval=round((22.0461-0.0196*PH.read()), 2)
+         graphics.fill_rect(26,40,40,7,BLACK);
+```
+Haciendo uso de  todo lo mencionado se prueba la pantalla con un módulo ESP32 genérico haciendo que muestre lo que se ve en la imagen.
+
+
+
 
 # Empezando a armar la caja
 
