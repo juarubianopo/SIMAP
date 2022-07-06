@@ -217,7 +217,7 @@ Haciendo uso de  todo lo mencionado se prueba la pantalla con un módulo ESP32 g
 El sensor  de  temperatura  es un sensor digital que   tiene  dos posibles formas de  configuración 
 
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/tempera.png">
+<img src="Imagenes/tempera.png">
 
 Se comunica a través de un bus de 1 cable que, por definición, sólo requiere una línea de datos (y tierra) para la comunicación con una central  microprocesadora.
 
@@ -272,7 +272,8 @@ def TRBread():
 ## 
 El diseño de la caja del sistema se realiza en el programa Fusion 360, para esto se descargó el modelo 3D de la PCB en KiCad para tener en cuenta los parámetros y medidas correspondientes. A continuación el modelo 3D del sistema:
 
-<img src="Imagenes/ezgif.com-gif-maker%20(1).gif"> [^1]
+<img src="Imagenes/ezgif.com-gif-maker%20(1).gif"> 
+[^1]
 
 [^1]: Los modelos 3D de los componentes usados en la animación fueron tomados de https://grabcad.com/ 
 
@@ -300,3 +301,16 @@ Luego de tener lacaja fija se pone una capa de colbon de madera para tener una e
 # Montaje Final 
 
 <img src="Imagenes/WhatsApp%20Image%202022-07-06%20at%209.38.55%20AM.jpeg"  >
+
+<img src="Imagenes/WhatsApp%20Image%202022-07-06%20at%209.57.46%20AM.jpeg"  >
+
+# Referencias 
+
+- Mejora en la Calidad del Agua de los Estanques [Online]. Available: https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6709s/x6709s02.htm
+- Diseño e implementación de un sistema de monitoreo de parámetros de calidad de agua en cultivo de tilapia en una granja piscícola del departamento del Cauca. [Online]. Available: https://hemeroteca.unad.edu.co/index.php/publicaciones-e-investigacion/article/download/3255/3254
+- “Diseño e implementación de un prototipo electrónico para monitoreo de parámetros físico-químicos en cultivo de tilapia a través de una aplicación móvil: Informador Técnico,” Diseño e implementación de un prototipo electrónico para monitoreo de parámetros físico-químicos en cultivo de tilapia a través de una aplicación móvil | Informador Técnico. [Online]. Available: https://revistas.sena.edu.co/index.php/inf_tec/article/view/322/2899#content/citation_reference_1
+- “Implementación de un sistema de monitoreo IoT aplicado a una piscicultura de trucha: Informador Técnico,” Implementación de un sistema de monitoreo IoT aplicado a una piscicultura de trucha | Informador Técnico. [Online]. Available: https://revistas.sena.edu.co/index.php/inf_tec/article/view/2937/3686
+“Monitoreo de agua en piscicultura,” Monitoreo de agua en piscicultura | Productos para Acuicultura Hanna Instruments. [Online]. Available: https://www.hannacolombia.com/aqua/blog/item/monitoreo-de-agua-en-piscicultura
+- “Parámetros Clave de la Calidad del Agua para Piscicultura,” BERNARDO LABORATORIOS. [Online]. Available: https://bernardolabs.com/parametros-clave-de-la-calidad-del-agua-para-piscicultura/
+- “Tilapia : Control De Calidad Del Agua 100 % IOT LAIN HOLDINGS,” LAIN HOLDINGS, 29-Dec-2021. [Online]. Available: https://lainholding.com/tilapia-control-de-calidad-del-agua/
+- C. Hoyos Velandia, «https://red.uao.edu.co/bitstream/handle/10614/11594/T08756.pdf?sequence=6&isAllowed=y», Universidad Autónoma de Colombia, Colombia, 2019 [Online]. Disponible en: https://red.uao.edu.co/bitstream/handle/10614/11594/T08756.pdf?sequence=6&isAllowed=y
