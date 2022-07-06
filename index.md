@@ -133,12 +133,11 @@ A la capa  button  no se le puso la capa de tierra.
 <img src="Imagenes/D3D.jpeg">
 
 # PCB lista para soldar
-## Top
-<img src="Imagenes/Top.jpg">
+Para la  impresión de la  PCB   se recurrió a JLC PCB que  es una  empresa  China. Además  de mandar  la información  de kitkat  se recurre  a otros software  para  la   perforación  de la PCB.  El costo  total  fue 16 dólares, para 5 placas con  envio de 9 días.    
 
+## Top Y Bottom
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/JLC_PCB.png">
 
-## Bottom
-<img src="Imagenes/Bottom.jpg">
 
 # Proceso de Montaje de componentes en la PCB
 
