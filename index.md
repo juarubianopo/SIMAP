@@ -152,7 +152,7 @@ Para la  impresión de la  PCB   se recurrió a JLC PCB que  es una  empresa  Ch
 
 # Proceso de Montaje de componentes en la PCB
 
-Luego de tener la PCB se procede al proceso de montaje de los componentes, una parte fue hecha por nosotros y el SOC fue puesto por ALexa Ocampo laboratorista de Mecatronica quien nos acompaño en todo eodo el proceso.
+Luego de tener la PCB se procede al proceso de montaje de los componentes, una parte fue hecha por nosotros y el SOC fue puesto por ALexa Ocampo laboratorista de Mecatronica quien nos acompaño en todo  el proceso.
 
 <img src="Imagenes/PCB_sold_1.jpg" >
 
