@@ -152,7 +152,13 @@ Para la  impresión de la  PCB   se recurrió a JLC PCB que  es una  empresa  Ch
 
 # Proceso de Montaje de componentes en la PCB
 
+Luego de tener la PCB se procede al proceso de montaje de los componentes, una parte fue hecha por nosotros y el SOC fue puesto por ALexa Ocampo laboratorista de Mecatronica quien nos acompaño en todo eodo el proceso.
+
 <img src="Imagenes/PCB_sold_1.jpg" >
+
+Despues de un arduo trabajo se tiene la PCB con sus componentes puestos quedando de la siguiente forma:
+
+<img src="Imagenes/PCB_FInal.jpg" >
 
 ## Prueba de Pantalla
 
@@ -184,4 +190,20 @@ se adjuntan videos de las pruebas de los sensores, mas adelante se redactara mej
 </iframe>
  
 
+# Empezando a armar la caja
 
+Ya teniendo los cortes de la caja se procede a poner los componentes que van en sus paredes, como son terminales de los sensores, display y LEDs.
+
+<img src="Imagenes/Prueba_Display.jpg" >
+
+Luego de poner los Leds y el display se tiene la parte frontal, vamos a empezar a pegar la caja.
+
+<img src="Imagenes/Armado_frontal.jpg" >
+
+Priemero se fijan las piezas de la caja con superbonder.
+
+<img src="Imagenes/Armado de caja_1.jpg" >
+
+Luego de tener lacaja fija se pone una capa de colbon de madera para tener una estructura mas firme.
+
+<img src="Imagenes/Armado de caja_2.jpg" >
