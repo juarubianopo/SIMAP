@@ -241,7 +241,7 @@ Energía directamente desde la línea de datos ("energía parásita")
 
 ### Sensor de PH
 El parámetro de pH se mide   de 0 a 14,  siendo el  agua  7  que es neutro. 7,1 hasta 14 es básico y de 0 a 6,9 es ácido.  se recomienda no medir productos muy ácidos  cercano a cero, o muy alcalinos cercanos a 14 puede dañar el sensor.   
-```
+``` `Python
 def PHread():
     
     global PHval
@@ -259,7 +259,7 @@ def PHread():
 ### Sensor Turbidez
 
 El  principio  de funcionamiento del sensor de turbidez es por  intensidad de iluminación, se tiene un fotoemisor y  un fotorreceptor,  según la difracción o disminución en la intensidad se calcula. sus  unidades nefelométricas de turbidez (NTU)
-```
+````Python
 def TRBread():
     
     global turb
