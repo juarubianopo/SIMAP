@@ -242,6 +242,15 @@ Energía directamente desde la línea de datos ("energía parásita")
 ### Sensor de PH
 El parámetro de pH se mide   de 0 a 14,  siendo el  agua  7  que es neutro. 7,1 hasta 14 es básico y de 0 a 6,9 es ácido.  se recomienda no medir productos muy ácidos  cercano a cero, o muy alcalinos cercanos a 14 puede dañar el sensor.   
 
+def PHread():
+    
+    global PHval
+    
+    if (PH.read()!=0):
+       if(PH.read()!=PHval):
+         PHval=round((22.0461-0.0196*PH.read()), 2)
+         graphics.fill_rect(26,40,40,7,BLACK)
+         oled.show()
 
 
 <iframe width="854" height="480" src="Imagenes/PH_Juan.mp4" type="video/mp4">
