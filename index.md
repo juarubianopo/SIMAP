@@ -267,9 +267,9 @@ def TRBread():
 <iframe width="854" height="480" src="Imagenes/P_Turbio_1.mp4" type="video/mp4">
 </iframe>
  
- # Diseño en 3D y Corte Láser
+# Diseño en 3D y Corte Láser
 
-## 
+## Diseño en 3D
 El diseño de la caja del sistema se realiza en el programa Fusion 360, para esto se descargó el modelo 3D de la PCB en KiCad para tener en cuenta los parámetros y medidas correspondientes. A continuación el modelo 3D del sistema:
 
 <img src="Imagenes/ezgif.com-gif-maker%20(1).gif"> 
