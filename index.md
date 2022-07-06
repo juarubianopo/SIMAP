@@ -173,6 +173,13 @@ se adjuntan videos de las pruebas de los sensores.
 El sensor  de  temperatura  es un sensor digital que   tiene  dos posibles formas de  configuración 
 
 
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/tempera.png">
+
+Se comunica a través de un bus de 1 cable que, por definición, sólo requiere una línea de datos (y tierra) para la comunicación con una central  microprocesadora.
+
+Energía directamente desde la línea de datos ("energía parásita")
+
+
 
 
 <iframe width="640" height="352" src="Imagenes/Temp_Kish.mp4" type="video/mp4">
