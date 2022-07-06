@@ -113,9 +113,19 @@ Para   los dos actuadores  se usaron  2 relés, se diseñó un circuito para su 
 <img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
 
 # Errores  de  diseño 
+
+Error en la   huella de  BT3904  
+
+
+
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/solucion.png" >
+
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
+
+
 A la capa  button  no se le puso la capa de tierra. 
 
-<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/error_dos.png" >
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
 
 
 
