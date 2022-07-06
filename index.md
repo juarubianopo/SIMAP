@@ -113,7 +113,10 @@ Para   los dos actuadores  se usaron  2 relés, se diseñó un circuito para su 
 <img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/sensores12.png" >
 
 # Errores  de  diseño 
-A la capa  button  no se le puso la capa de tierra.  
+A la capa  button  no se le puso la capa de tierra. 
+
+<img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/error_dos.png" >
+
 
 
 # PCB en KiCad
