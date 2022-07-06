@@ -75,7 +75,7 @@ De acuerdo con lo anterior, se investigaron y cotizaron los siguientes ensores.
 # Esquema funcional
 De acuerdo con la información investigada, se planteó el siguiente esquema funcional para el desarrollo del sistema de monitoreo, el cual consta de un bloque central llamado "PCB Madre" que consta del módulo de programación de la ESP 32 el cual recibirá la información a través del acondicionamiento de la señales que sean recolectadas de los sensores de PH, oxígeno, temperatura, turbidez, y nitrato. Este módulo a suvez contará con su correspoendiente driver y un convertidor DC/DC para su alimentación, el almacenamiento de los datos y un calentador de agua. La información que se recolecté a partir de los sensores se podrá visualizar en una interfaz.
 
-<img src="Imagenes/Esquema_Funcional.png" >
+<img src="Imagenes/Esquema_Funcional_2.png" >
 
 
 # Diseño de la PCB en KiCad
