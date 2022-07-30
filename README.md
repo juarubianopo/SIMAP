@@ -18,6 +18,16 @@ Toda la documentación referente al proyecto se encuentra en nuestra página web
 <img src="https://github.com/juarubianopo/SIMAP/blob/gh-pages/Imagenes/2.png" > 
 
 
+# Referencias 
+
+- Mejora en la Calidad del Agua de los Estanques [Online]. Available: https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6709s/x6709s02.htm
+- Diseño e implementación de un sistema de monitoreo de parámetros de calidad de agua en cultivo de tilapia en una granja piscícola del departamento del Cauca. [Online]. Available: https://hemeroteca.unad.edu.co/index.php/publicaciones-e-investigacion/article/download/3255/3254
+- “Diseño e implementación de un prototipo electrónico para monitoreo de parámetros físico-químicos en cultivo de tilapia a través de una aplicación móvil: Informador Técnico,” Diseño e implementación de un prototipo electrónico para monitoreo de parámetros físico-químicos en cultivo de tilapia a través de una aplicación móvil Informador Técnico. [Online]. Available: https://revistas.sena.edu.co/index.php/inf_tec/article/view/322/2899#content/citation_reference_1
+- “Implementación de un sistema de monitoreo IoT aplicado a una piscicultura de trucha: Informador Técnico,” Implementación de un sistema de monitoreo IoT aplicado a una piscicultura de trucha Informador Técnico. [Online]. Available: https://revistas.sena.edu.co/index.php/inf_tec/article/view/2937/3686
+“Monitoreo de agua en piscicultura,” Monitoreo de agua en piscicultura, Productos para Acuicultura Hanna Instruments. [Online]. Available: https://www.hannacolombia.com/aqua/blog/item/monitoreo-de-agua-en-piscicultura
+- “Parámetros Clave de la Calidad del Agua para Piscicultura,” BERNARDO LABORATORIOS. [Online]. Available: https://bernardolabs.com/parametros-clave-de-la-calidad-del-agua-para-piscicultura/
+- “Tilapia : Control De Calidad Del Agua 100 % IOT LAIN HOLDINGS,” LAIN HOLDINGS, 29-Dec-2021. [Online]. Available: https://lainholding.com/tilapia-control-de-calidad-del-agua/
+- C. Hoyos Velandia, «https://red.uao.edu.co/bitstream/handle/10614/11594/T08756.pdf?sequence=6&isAllowed=y», Universidad Autónoma de Colombia, Colombia, 2019 [Online]. Disponible en: https://red.uao.edu.co/bitstream/handle/10614/11594/T08756.pdf?sequence=6&isAllowed=y
 
 
 
